@@ -1,0 +1,5 @@
+precio = float(input("Dime el precio "))
+precio = round(precio, 2)
+precio = str(precio)
+precio = precio.split(".")
+print("El numero de euros es " + precio[0] + " y el numero de centimos es " + precio[1])
